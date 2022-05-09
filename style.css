@@ -75,3 +75,25 @@
     left: 740px;
     top: 663px;
 }
+
+@font-face{
+    font-family:'montserrat';
+    src:url('font/montserratalternates-light-webfont.woff2')format'woff2';
+}
+
+.footer{
+    font-size: 14px;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 500 bold;
+    line-height:17.07px;
+    text-align: center;
+    color:#bdbdbd;
+    width: 287px;
+    height:17px;
+    top:1039px;
+    left:577px;
+}
+
+.footer span{
+    font-weight: 700 bold;
+}
