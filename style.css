@@ -76,7 +76,6 @@
     font-size: 12px;
     font-family: 'space-mono', sans-serif;
     background-color: #333333;
-    color: white;
     position: absolute;
     width: 216px;
     height: 68px;
@@ -85,6 +84,17 @@
     text-align: center;
     line-height: 68px;
 }
+
+a {
+    color:inherit;
+    text-decoration-line: none;
+}
+
+.removelinkdeafult{
+    color: white;
+    text-decoration: none;
+}
+
 
 @font-face{
     font-family:'montserrat';
