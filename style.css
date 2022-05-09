@@ -52,10 +52,12 @@
 
 .gambar{
     width: 539px;
+    height: 414px;
     position: absolute;
     top: 265px;
     left: 77px;
     color: #ffd25b;
+    background-image: url(logo2.png);
 }
 
 .isi{
