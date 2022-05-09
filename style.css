@@ -50,6 +50,14 @@
     left: 735px;
 }
 
+.gambar{
+    width: 539px;
+    position: absolute;
+    top: 265px;
+    left: 77px;
+    color: #ffd25b;
+}
+
 .isi{
     font-size: 24px;
     font-family: 'space-mono', sans-serif;
@@ -74,6 +82,8 @@
     height: 68px;
     left: 740px;
     top: 663px;
+    text-align: center;
+    line-height: 68px;
 }
 
 @font-face{
@@ -88,12 +98,13 @@
     line-height:17.07px;
     text-align: center;
     color:#bdbdbd;
+    position: absolute;
     width: 287px;
     height:17px;
     top:1039px;
     left:577px;
 }
 
-.footer span{
+span{
     font-weight: 700 bold;
 }
