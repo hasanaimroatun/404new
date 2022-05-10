@@ -105,3 +105,48 @@ a {
 span{
     font-weight: 700 bold;
 }
+
+
+/*media query untuk mobile-phone*/
+@media(max-width:480px){
+    .header{
+        top: 20px;
+        left: 24px;
+    }
+
+    .judul{
+        font-size: 48px;
+        line-height: 71.09px;
+        width: 350px;
+        height: 142px;
+        top: 407px;
+        left: 24px;
+    }
+
+    .gambar{
+        width: 286.83px;
+        height: 220.35px;
+        top: 109px;
+        left: 44px;
+        background-image: url(gambar/logo1.png);
+    }
+
+    .isi{
+        font-size: 18px;
+        line-height: 26.66px;;
+        width: 328px;
+        height: 81px;
+        top: 579px;
+        left: 23px;
+    }
+
+    .tombol{
+        left: 24px;
+        top: 726px;
+    }
+
+    .footer{
+        top:908px;
+        left:46px;
+    }
+}
