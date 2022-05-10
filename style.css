@@ -36,20 +36,6 @@
     left: 735px;
 }
 
-.lanjutanjudul{
-    font-size: 64px;
-    font-family: 'space-mono', sans-serif;
-    font-weight: 700 bold;
-    line-height: 94.78px;
-    letter-spacing: -0.035em;
-    color: #333333;
-    position: absolute;
-    width: 586px;
-    height: 190px;
-    top: 375px;
-    left: 735px;
-}
-
 .gambar{
     width: 539px;
     height: 414px;
@@ -75,7 +61,7 @@
 }
 
 .tombol{
-    font-size: 12px;
+    font-size: 14px;
     font-family: 'space-mono', sans-serif;
     background-color: #333333;
     position: absolute;
