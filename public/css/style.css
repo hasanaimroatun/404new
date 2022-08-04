@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'inconsolata';
+    src: url('../font/inconsolata-webfont.woff2') format('woff2');
+}
+.header{
+    font-size: 24px;
+    font-family: 'inconsolata', sans-serif;
+    font-style: normal;
+    font-weight: 700 bold;
+    line-height: 25.18px;
+    letter-spacing: -0.08em;
+    color: #333333;
+    position: absolute;
+    width: 133px;
+    height: 25px;
+    top: 40px;
+    left: 77px;
+}
+
+@font-face {
+    font-family: 'space-mono';
+    src: url('../font/spacemono-regular-webfont.woff2')format('woff2');
+}
+
+.judul{
+    font-size: 64px;
+    font-family: 'space-mono', sans-serif;
+    font-weight: 700 bold;
+    line-height: 94.78px;
+    letter-spacing: -0.035em;
+    color: #333333;
+    position: absolute;
+    width: 586px;
+    height: 190px;
+    top: 265px;
+    left: 735px;
+}
+
+.gambar{
+    width: 539px;
+    height: 414px;
+    position: absolute;
+    top: 265px;
+    left: 77px;
+    background-image: url(../gambar/logo2.png);
+}
+
+.isi{
+    font-size: 24px;
+    font-family: 'space-mono', sans-serif;
+    font-weight: 400;
+    line-height: 35.54px;
+    letter-spacing: -0.035em;
+    color: #4f4f4f;
+    position: absolute;
+    width: 381px;
+    height: 108px;
+    top: 491px;
+    left: 736px;
+}
+
+.tombol{
+    font-size: 14px;
+    font-family: 'space-mono', sans-serif;
+    background-color: #333333;
+    position: absolute;
+    width: 216px;
+    height: 68px;
+    left: 740px;
+    top: 663px;
+    text-align: center;
+    line-height: 68px;
+}
+
+a {
+    color:inherit;
+    text-decoration-line: none;
+}
+
+.removelinkdeafult{
+    color: white;
+    text-decoration: none;
+}
+
+
+@font-face{
+    font-family:'montserrat';
+    src:url('../font/montserratalternates-light-webfont.woff2')format'woff2';
+}
+
+.footer{
+    font-size: 14px;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 500 bold;
+    line-height:17.07px;
+    text-align: center;
+    color:#bdbdbd;
+    position: absolute;
+    width: 287px;
+    height:17px;
+    top:1039px;
+    left:577px;
+}
+
+span{
+    font-weight: 700 bold;
+}
+
+
+/*media query untuk mobile-phone*/
+@media(max-width:600px){
+    .header{
+        top: 20px;
+        left: 24px;
+    }
+
+    .judul{
+        font-size: 48px;
+        line-height: 71.09px;
+        width: 350px;
+        height: 142px;
+        top: 407px;
+        left: 24px;
+    }
+
+    .gambar{
+        width: 286.83px;
+        height: 220.35px;
+        top: 109px;
+        left: 44px;
+        background-image: url(../gambar/logo1.png);
+    }
+
+    .isi{
+        font-size: 18px;
+        line-height: 26.66px;;
+        width: 328px;
+        height: 81px;
+        top: 579px;
+        left: 23px;
+    }
+
+    .tombol{
+        left: 24px;
+        top: 726px;
+    }
+
+    .footer{
+        top:908px;
+        left:46px;
+    }
+}
